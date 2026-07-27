@@ -2,7 +2,7 @@
 // Enunciado: Lista com .map
 // Transforme um array de 3 nomes em vários <li> usando .map().
 
-function Lista() {
+export default function ListaMap() {
     const nomes = ["Ana", "Bruno", "Carla"];
     return (
         <ul className="text-xl text-slate-700 space-y-1">

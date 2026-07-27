@@ -1,5 +1,5 @@
 // Lista 01 Exercício 04
-//Enunciado: Componente Rodape
+// Enunciado: Componente Rodape
 // Crie um componente Rodape que retorna um <footer> com o copyright da turma.
 
 export default function Rodape() {

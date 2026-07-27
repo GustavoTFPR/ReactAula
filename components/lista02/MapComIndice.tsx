@@ -2,7 +2,7 @@
 // Enunciado: .map com índice
 // Numere a lista usando o segundo parâmetro do .map((n, i) => ...).
 
-function Lista() {
+export default function MapComIndice() {
     const nomes = ["Ana", "Bruno", "Carla"];
     return (
         <ol className="text-xl text-slate-700 space-y-1">

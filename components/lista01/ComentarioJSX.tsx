@@ -2,10 +2,10 @@
 // Enunciado: Comentário em JSX
 // Deixe um comentário no JSX marcando onde vão os cards, usando { "{/* … */}" }.
 
-function Page() {
+export default function ComentarioJSX() {
     return (
         <div>
-            {/* Comentarios */}
+            {/* Comentarios: aqui entram os cards dos alunos */}
             <h2 className="text-xl font-bold text-slate-800">Turma 2026</h2>
         </div>
     );

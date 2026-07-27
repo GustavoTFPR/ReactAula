@@ -2,7 +2,11 @@
 // Enunciado: Ternário no JSX
 // Mostre "🟢 online" ou "⚪ offline" conforme a prop online, usando um ternário dentro do JSX.
 
-function Status({ online }) {
+type TernarioJSXProps = {
+    online: boolean;
+};
+
+export default function TernarioJSX({ online }: TernarioJSXProps) {
     return (
         <p className="text-lg">
             {online

@@ -2,6 +2,10 @@
 // Enunciado: Prop num parágrafo
 // O componente Perfil recebe a prop cargo e a mostra dentro de um <p>.
 
-function Perfil(props) {
-    return <p className="text-xl text-slate-700">Cargo: {props.cargo}</p>;
+type PropParagrafoProps = {
+    cargo: string;
+};
+
+export default function PropParagrafo({ cargo }: PropParagrafoProps) {
+    return <p className="text-xl text-slate-700">Cargo: {cargo}</p>;
 }

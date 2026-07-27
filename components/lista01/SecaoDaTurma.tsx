@@ -1,8 +1,8 @@
 // Lista 01 Exercício 17
-//Enunciado: SecaoTurma
-// Crie uma SecaoTurma com um < section > contendo um heading e um parágrafo sobre a turma.
+// Enunciado: SecaoTurma
+// Crie uma SecaoTurma com um <section> contendo um heading e um parágrafo sobre a turma.
 
-function SecaoTurma() {
+export default function SecaoDaTurma() {
     return (
         <section>
             <h2 className="text-2xl font-bold text-slate-800">Sobre a turma</h2>

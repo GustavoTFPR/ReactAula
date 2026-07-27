@@ -4,4 +4,4 @@
 
 export default function FuncaoTitulo() {
     return <h1 className="text-2xl font-bold text-slate-800">Turma Front-end</h1>;
-  }
+}

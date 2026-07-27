@@ -2,8 +2,10 @@
 // Enunciado: Primeira prop
 // O componente Saudacao recebe uma prop nome e a exibe dentro de um <h1>.
 
-function Saudacao(props) {
-    return <h1 className="text-3xl font-bold text-slate-800">Olá, {props.nome}!</h1>;
+type PrimeiraPropProps = {
+    nome: string;
+};
+
+export default function PrimeiraProp({ nome }: PrimeiraPropProps) {
+    return <h1 className="text-3xl font-bold text-slate-800">Olá, {nome}!</h1>;
 }
-
-

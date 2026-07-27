@@ -2,7 +2,7 @@
 // Enunciado: CardAluno fixo
 // Crie um CardAluno com foto (emoji), nome e curso chumbados: Ana Carolina · Front-end.
 
-function CardAluno() {
+export default function CardAluno() {
     return (
         <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
             <div className="text-4xl">👩‍💻</div>

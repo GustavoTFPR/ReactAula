@@ -2,7 +2,7 @@
 // Enunciado: Tabela via .map
 // Um array de alunos {id, nome, nota} vira uma <table>, uma <tr> por aluno.
 
-function App() {
+export default function TabelaViaMap() {
     const alunos = [{ id: 1, nome: "Ana", nota: 9 }, { id: 2, nome: "Bruno", nota: 7 }, { id: 3, nome: "Carla", nota: 10 }];
     return (
         <table className="w-full bg-white rounded-lg overflow-hidden text-slate-800">

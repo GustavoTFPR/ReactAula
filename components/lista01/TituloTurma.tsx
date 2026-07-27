@@ -4,4 +4,4 @@
 
 export default function TituloTurma() {
     return <h1 className="text-3xl font-bold text-slate-800">Turma Front-end 2026 🎓</h1>;
-  }
+}

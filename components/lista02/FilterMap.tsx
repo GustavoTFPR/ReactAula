@@ -2,7 +2,7 @@
 // Enunciado: filter + map
 // Só as pessoas ativo: true viram card. Primeiro .filter(), depois .map().
 
-function App() {
+export default function FilterMap() {
     const pessoas = [
         { id: 1, nome: "Ana", ativo: true },
         { id: 2, nome: "Bruno", ativo: false },
