@@ -1,4 +1,3 @@
-import ExercicioCard from "@/components/ui/ExercicioCard";
 import TituloTurma from "@/components/lista01/TituloTurma";
 import Subtitulo from "@/components/lista01/Subtitulo";
 import FuncaoTitulo from "@/components/lista01/FuncaoTitulo";

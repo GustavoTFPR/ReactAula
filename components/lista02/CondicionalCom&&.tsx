@@ -2,7 +2,7 @@
 // Enunciado: Condicional com &&
 // Mostre um selo ⭐ VIP somente quando a prop vip for verdadeira, usando vip &&.
 
-function Card({ nome, vip }) {
+export default function Card({ nome, vip }) {
     return (
         <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
             <h3 className="text-xl font-bold text-slate-800">{nome}</h3>
