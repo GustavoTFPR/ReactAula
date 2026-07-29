@@ -15,10 +15,17 @@ export default function Home() {
                 </Link>
                 <Link
                     href="/lista02"
-                    className="bg-cyan-700 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-cyan-600 transition-colors"
+                    className="bg-cyan-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-cyan-600 transition-colors"
                 >
                     Lista 02
                     <span className="block text-sm font-normal text-cyan-100 mt-1">Props e Listas</span>
+                </Link>
+                <Link
+                    href="/lista03"
+                    className="bg-purple-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-cyan-600 transition-colors"
+                >
+                    Lista 03
+                    <span className="block text-sm font-normal text-cyan-100 mt-1">Estado & Eventos</span>
                 </Link>
             </div>
         </main>
