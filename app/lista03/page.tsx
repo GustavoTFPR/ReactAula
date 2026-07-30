@@ -9,6 +9,11 @@ import ParOuImpar from "@/components/lista03/ParOuImpar";
 import ResetarInput from "@/components/lista03/ResetarInput";
 import ToggleLigaDesliga from "@/components/lista03/ToggleLigaDesliga";
 import TrocaCor from "@/components/lista03/TrocaCor";
+import MarcarPresenca from "@/components/lista03/MarcarPresenca";
+import CurtidasCard from "@/components/lista03/CurtidasCard";
+import AdicionarLista from "@/components/lista03/AdicionarLista";
+import RemoverAluno from "@/components/lista03/RemoverAluno";
+import ContarPresentes from "@/components/lista03/ContarPresentes";
 
 
 export default function Lista03() {
@@ -31,6 +36,11 @@ export default function Lista03() {
             <InputControlado />
             <ContarCaracteres />
             <ResetarInput />
+            <MarcarPresenca />
+            <CurtidasCard />
+            <AdicionarLista />
+            <RemoverAluno />
+            <ContarPresentes />
         </main>
     );
 }
