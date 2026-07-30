@@ -9,9 +9,9 @@ import { useState } from "react";
 export default function ToggleLigaDesliga() {
     const [ligado, setLigado] = useState<boolean>(false);
     return (
-        <div className="text-center">
+        <div className="text-center py-2 px-4 rounded mb-4">
             <p className="text-2xl font-bold mb-4">{ligado ? "🟢" : "⚪"}</p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={() => setLigado(!ligado)}>Alternar</button>
+            <button className="bg-blue-500 justify-center hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={() => setLigado(!ligado)}>Alternar</button>
         </div>
     );
 }

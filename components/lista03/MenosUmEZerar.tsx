@@ -9,11 +9,13 @@ import { useState } from "react";
 export default function MenosUmEZerar() {
         const [n, setN] = useState<number>(0);
         return (
-            <div className="bg-blue-500 text-center">
-                <p className="text-2xl font-bold mb-4">Contador: {n}</p>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={() => setN(n + 1)}>Somar 1</button>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={() => setN(n - 1)}>Diminuir 1</button>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={() => setN(0)} >Zerar</button>
+            <div className="text-center mb-8">
+                <p className="text-2xl block bg-blue-500 font-bold mb-4">Contador: {n}</p>
+                <div className="flex gap-2 justify-center">
+                    <button className="bg-blue-500 text-1xl font-bold text-white px-4 py-2 rounded" onClick={() => setN(n + 1)}>Somar 1</button>
+                    <button className="bg-blue-500 text-1xl font-bold text-white px-4 py-2 rounded" onClick={() => setN(n - 1)}>Diminuir 1</button>
+                    <button className="bg-blue-500 text-1xl font-bold text-white px-4 py-2 rounded" onClick={() => setN(0)} >Zerar</button>
+                </div>
             </div>
     )
 }
