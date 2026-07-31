@@ -37,7 +37,7 @@ export default function Lista03() {
                 <div className="space-y-6">
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">01</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">01</span>
                             <span className="text-sm text-slate-400">AlertOnClique</span>
                         </div>
                         <AlertOnClique />
@@ -45,7 +45,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">02</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">02</span>
                             <span className="text-sm text-slate-400">ContadorMaisUm</span>
                         </div>
                         <ContadorMaisUm />
@@ -53,7 +53,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">03</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">03</span>
                             <span className="text-sm text-slate-400">MenosUmZerar</span>
                         </div>
                         <MenosUmEZerar />
@@ -61,7 +61,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">04</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">04</span>
                             <span className="text-sm text-slate-400">ParOuImpar</span>
                         </div>
                         <ParOuImpar />
@@ -69,7 +69,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">05</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">05</span>
                             <span className="text-sm text-slate-400">ToggleLigaDesliga</span>
                         </div>
                         <ToggleLigaDesliga />
@@ -77,7 +77,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">06</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">06</span>
                             <span className="text-sm text-slate-400">MostrarEsconder</span>
                         </div>
                         <MostrarEsconder />
@@ -85,7 +85,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">07</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">07</span>
                             <span className="text-sm text-slate-400">TrocarCor</span>
                         </div>
                         <TrocaCor />
@@ -93,7 +93,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">08</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">08</span>
                             <span className="text-sm text-slate-400">InputControlado</span>
                         </div>
                         <InputControlado />
@@ -101,7 +101,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">09</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">09</span>
                             <span className="text-sm text-slate-400">ContarCaracteres</span>
                         </div>
                         <ContarCaracteres />
@@ -109,7 +109,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">10</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">10</span>
                             <span className="text-sm text-slate-400">ResetarInput</span>
                         </div>
                         <ResetarInput />
@@ -117,7 +117,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">11</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">11</span>
                             <span className="text-sm text-slate-400">MarcarPresença</span>
                         </div>
                         <MarcarPresenca />
@@ -125,7 +125,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">12</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">12</span>
                             <span className="text-sm text-slate-400">CurtidasCard</span>
                         </div>
                         <CurtidasCard />
@@ -133,7 +133,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">13</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">13</span>
                             <span className="text-sm text-slate-400">AdicionarLista</span>
                         </div>
                         <AdicionarLista />
@@ -141,7 +141,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">14</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">14</span>
                             <span className="text-sm text-slate-400">RemoverAluno</span>
                         </div>
                         <RemoverAluno />
@@ -149,7 +149,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">15</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">15</span>
                             <span className="text-sm text-slate-400">ContarPresentes</span>
                         </div>
                         <ContarPresentes />
@@ -157,7 +157,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">16</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">16</span>
                             <span className="text-sm text-slate-400">DoisContadores</span>
                         </div>
                         <DoisContadores />
@@ -165,7 +165,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">17</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">17</span>
                             <span className="text-sm text-slate-400">SoPresentes</span>
                         </div>
                         <SoPresentes />
@@ -173,7 +173,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">18</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">18</span>
                             <span className="text-sm text-slate-400">PresençaInterativa</span>
                         </div>
                         <PresencaInterativa />
@@ -181,7 +181,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">19</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">19</span>
                             <span className="text-sm text-slate-400">MiniMatricula</span>
                         </div>
                         <MiniMatricula />
@@ -189,7 +189,7 @@ export default function Lista03() {
 
                     <section className="bg-white rounded-2xl border border-cyan-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">20</span>
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">20</span>
                             <span className="text-sm text-slate-400">PainelTurma</span>
                         </div>
                         <PainelTurma />

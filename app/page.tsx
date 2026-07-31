@@ -22,10 +22,17 @@ export default function Home() {
                 </Link>
                 <Link
                     href="/lista03"
-                    className="bg-green-600 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-green-400 transition-colors"
+                    className="bg-green-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-green-600 transition-colors"
                 >
                     Lista 03
                     <span className="block text-sm font-normal text-cyan-100 mt-1">Estado & Eventos</span>
+                </Link>
+                <Link
+                    href="/lista04"
+                    className="bg-red-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-red-600 transition-colors"
+                >
+                    Lista 04
+                    <span className="block text-sm font-normal text-cyan-100 mt-1">Formulários</span>
                 </Link>
             </div>
         </main>
