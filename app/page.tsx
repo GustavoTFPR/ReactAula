@@ -22,7 +22,7 @@ export default function Home() {
                 </Link>
                 <Link
                     href="/lista03"
-                    className="bg-purple-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-purple-600 transition-colors"
+                    className="bg-green-600 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-green-400 transition-colors"
                 >
                     Lista 03
                     <span className="block text-sm font-normal text-cyan-100 mt-1">Estado & Eventos</span>

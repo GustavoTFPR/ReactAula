@@ -9,9 +9,15 @@ import { useState } from "react";
 export default function ToggleLigaDesliga() {
     const [ligado, setLigado] = useState<boolean>(false);
     return (
-        <div className="text-center py-2 px-4 rounded mb-4">
-            <p className="text-2xl font-bold mb-4">{ligado ? "🟢" : "⚪"}</p>
-            <button className="bg-blue-500 justify-center hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={() => setLigado(!ligado)}>Alternar</button>
+        <div className="mx-auto max-w-xs rounded-xl border border-zinc-200 bg-white p-6 text-center shadow-sm">
+            <span className={`mb-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium ${ligado ? "bg-emerald-50 text-emerald-700" : "bg-zinc-100 text-zinc-500"}`}>
+                {ligado ? "🟢" : "⚪"} {ligado ? "ligado" : "desligado"}
+            </span>
+            <button
+                className="mt-4 block w-full rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-2 active:scale-[0.98]"
+                onClick={() => setLigado(!ligado)}>
+                Alternar
+            </button>
         </div>
     );
 }

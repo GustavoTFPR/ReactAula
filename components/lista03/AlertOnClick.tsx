@@ -6,8 +6,12 @@
 
 export default function AlertOnClique() {
     return (
-        <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mb-8" onClick={() => alert("Olá, turma!")}>
-            Clique aqui
-        </button>
-    )
+        <div className="text-center">
+            <button
+                className="inline-flex items-center justify-center rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white shadow-sm transition-colors hover:bg-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-2 active:scale-[0.98]"
+                onClick={() => alert("Olá, turma!")}>
+                Clique aqui
+            </button>
+        </div>
+    );
 }

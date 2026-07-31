@@ -31,26 +31,186 @@ export default function Lista03() {
                     <span aria-hidden>←</span>Voltar
                 </Link>
             </div>
-            <AlertOnClique />
-            <ContadorMaisUm />
-            <MenosUmEZerar />
-            <ParOuImpar />
-            <ToggleLigaDesliga />
-            <MostrarEsconder />
-            <TrocaCor />
-            <InputControlado />
-            <ContarCaracteres />
-            <ResetarInput />
-            <MarcarPresenca />
-            <CurtidasCard />
-            <AdicionarLista />
-            <RemoverAluno />
-            <ContarPresentes />
-            <DoisContadores />
-            <SoPresentes />
-            <PresencaInterativa />
-            <MiniMatricula />
-            <PainelTurma />
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">01</span>
+                        <span className="text-sm text-slate-400">AlertOnClique</span>
+                    </div>
+                    <AlertOnClique />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">02</span>
+                        <span className="text-sm text-slate-400">ContadorMaisUm</span>
+                    </div>
+                    <ContadorMaisUm />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">03</span>
+                        <span className="text-sm text-slate-400">MenosUmZerar</span>
+                    </div>
+                    <MenosUmEZerar />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">04</span>
+                        <span className="text-sm text-slate-400">ParOuImpar</span>
+                    </div>
+                    <ParOuImpar />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">05</span>
+                        <span className="text-sm text-slate-400">ToggleLigaDesliga</span>
+                    </div>
+                    <ToggleLigaDesliga />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">06</span>
+                        <span className="text-sm text-slate-400">MostrarEsconder</span>
+                    </div>
+                    <MostrarEsconder />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">07</span>
+                        <span className="text-sm text-slate-400">TrocarCor</span>
+                    </div>
+                    <TrocaCor />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">08</span>
+                        <span className="text-sm text-slate-400">InputControlado</span>
+                    </div>
+                    <InputControlado />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">09</span>
+                        <span className="text-sm text-slate-400">ContarCaracteres</span>
+                    </div>
+                    <ContarCaracteres />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">10</span>
+                        <span className="text-sm text-slate-400">ResetarInput</span>
+                    </div>
+                    <ResetarInput />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">11</span>
+                        <span className="text-sm text-slate-400">MarcarPresença</span>
+                    </div>
+                    <MarcarPresenca />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">12</span>
+                        <span className="text-sm text-slate-400">CurtidasCard</span>
+                    </div>
+                    <CurtidasCard />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">13</span>
+                        <span className="text-sm text-slate-400">AdicionarLista</span>
+                    </div>
+                    <AdicionarLista />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">14</span>
+                        <span className="text-sm text-slate-400">RemoverAluno</span>
+                    </div>
+                    <RemoverAluno />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">15</span>
+                        <span className="text-sm text-slate-400">ContarPresentes</span>
+                    </div>
+                    <ContarPresentes />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">16</span>
+                        <span className="text-sm text-slate-400">DoisContadores</span>
+                    </div>
+                    <DoisContadores />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">17</span>
+                        <span className="text-sm text-slate-400">SoPresentes</span>
+                    </div>
+                    <SoPresentes />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">18</span>
+                        <span className="text-sm text-slate-400">PresençaInterativa</span>
+                    </div>
+                    <PresencaInterativa />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">19</span>
+                        <span className="text-sm text-slate-400">MiniMatricula</span>
+                    </div>
+                    <MiniMatricula />
+                </section>
+            </div>
+            <div className="space-y-6">
+                <section className="bg-white rounded-2xl border border-cyan-100 p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                        <span className="text-xs font-bold bg-cyan-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">20</span>
+                        <span className="text-sm text-slate-400">PainelTurma</span>
+                    </div>
+                    <PainelTurma />
+                </section>
+            </div>
         </main>
     );
 }
