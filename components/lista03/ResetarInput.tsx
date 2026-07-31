@@ -11,10 +11,10 @@ export default function ResetarInput() {
     return (
         <div className="text-center flex flex-col gap-3 items-center">
             <input className="border rounded-lg px-3 py-2"
-            value={texto}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTexto(e.target.value)} />
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold px-4 py-2 rounded-lg"
-            onClick={() => setTexto("")}>limpar</button>
+                value={texto}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTexto(e.target.value)} />
+            <button className="inline-block bg-blue-500 text-1xl font-bold text-white px-4 py-2 rounded mb-4"
+                onClick={() => setTexto("")}>limpar</button>
         </div>
     );
 }

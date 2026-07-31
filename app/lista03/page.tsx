@@ -14,6 +14,11 @@ import CurtidasCard from "@/components/lista03/CurtidasCard";
 import AdicionarLista from "@/components/lista03/AdicionarLista";
 import RemoverAluno from "@/components/lista03/RemoverAluno";
 import ContarPresentes from "@/components/lista03/ContarPresentes";
+import DoisContadores from "@/components/lista03/DoisContadores";
+import SoPresentes from "@/components/lista03/SoPresentes";
+import PresencaInterativa from "@/components/lista03/PresencaInterativa";
+import MiniMatricula from "@/components/lista03/MiniMatricula";
+import PainelTurma from "@/components/lista03/PainelTurma";
 
 
 export default function Lista03() {
@@ -41,6 +46,11 @@ export default function Lista03() {
             <AdicionarLista />
             <RemoverAluno />
             <ContarPresentes />
+            <DoisContadores />
+            <SoPresentes />
+            <PresencaInterativa />
+            <MiniMatricula />
+            <PainelTurma />
         </main>
     );
 }

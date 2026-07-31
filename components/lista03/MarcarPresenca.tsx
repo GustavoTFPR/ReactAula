@@ -12,7 +12,7 @@ export default function MarcarPresenca() {
         <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
             <h3 className="text-lg font-bold text-slate-800">Ana Carolina</h3>
             <p className="text-3xl my-2">{presente ? "🟢" : "⚪"}</p>
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold px-4 py-2 rounded-lg"
+            <button className="inline-block bg-blue-500 text-1xl font-bold text-white px-4 py-2 rounded mb-4"
                 onClick={() => setPresente(!presente)}>marcar</button>
         </div>
     );
