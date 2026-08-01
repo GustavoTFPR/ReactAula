@@ -9,6 +9,16 @@ import NomeObrigatorio from "@/components/lista04/NomeObrigatorio";
 import SelectControlado from "@/components/lista04/SelectControlado";
 import CheckboxControlado from "@/components/lista04/CheckboxControlado";
 import RadioControlado from "@/components/lista04/RadioControlado";
+import LimparForm from "@/components/lista04/LimparForm";
+import ContadorDeCaracteres from "@/components/lista04/ContadorDeCaracteres";
+import BotaoDesabilitado from "@/components/lista04/BotaoDesabilitado";
+import AdicionarATurma from "@/components/lista04/AdicionarATurma";
+import MostrarErroNaTela from "@/components/lista04/MostrarErroNaTela";
+import CampoNumero from "@/components/lista04/CampoNumero";
+import TextareaControlada from "@/components/lista04/TextareaControlada";
+import MatriculaCompleta from "@/components/lista04/MatriculaCompleta";
+import ValidacaoMaisLista from "@/components/lista04/ValidacaoMaisLista";
+import MiniCadastroDaTurma from "@/components/lista04/MiniCadastroDaTurma";
 
 export default function Lista04() {
     return (
@@ -103,6 +113,86 @@ export default function Lista04() {
                             <span className="text-sm text-slate-400">RadioControlado</span>
                         </div>
                         <RadioControlado />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">11</span>
+                            <span className="text-sm text-slate-400">LimparForm</span>
+                        </div>
+                        <LimparForm />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">12</span>
+                            <span className="text-sm text-slate-400">ContadorDeCaracteres</span>
+                        </div>
+                        <ContadorDeCaracteres />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">13</span>
+                            <span className="text-sm text-slate-400">BotaoDesabilitado</span>
+                        </div>
+                        <BotaoDesabilitado />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">14</span>
+                            <span className="text-sm text-slate-400">AdicionarATurma</span>
+                        </div>
+                        <AdicionarATurma />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">15</span>
+                            <span className="text-sm text-slate-400">MostrarErroNaTela</span>
+                        </div>
+                        <MostrarErroNaTela />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">16</span>
+                            <span className="text-sm text-slate-400">CampoNumero</span>
+                        </div>
+                        <CampoNumero />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">17</span>
+                            <span className="text-sm text-slate-400">TextareaControlada</span>
+                        </div>
+                        <TextareaControlada />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">18</span>
+                            <span className="text-sm text-slate-400">MatriculaCompleta 🔥</span>
+                        </div>
+                        <MatriculaCompleta />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">19</span>
+                            <span className="text-sm text-slate-400">ValidacaoMaisLista 🔥</span>
+                        </div>
+                        <ValidacaoMaisLista />
+                    </section>
+
+                    <section className="bg-white rounded-2xl border border-purple-100 p-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">20</span>
+                            <span className="text-sm text-slate-400">MiniCadastroDaTurma 🔥🔥</span>
+                        </div>
+                        <MiniCadastroDaTurma />
                     </section>
                 </div>
             </div>
