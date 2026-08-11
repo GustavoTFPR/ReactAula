@@ -34,6 +34,13 @@ export default function Home() {
                     Lista 04
                     <span className="block text-sm font-normal text-cyan-100 mt-1">Formulários</span>
                 </Link>
+                <Link
+                    href="/lista05"
+                    className="bg-yellow-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-yellow-600 transition-colors"
+                >
+                    Lista 05
+                    <span className="block text-sm font-normal text-cyan-100 mt-1">Consumir a API</span>
+                </Link>
             </div>
         </main>
     );
