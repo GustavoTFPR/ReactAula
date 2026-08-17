@@ -9,6 +9,8 @@ import TratarErro from "@/components/lista05/TratarErro";
 import ChecarRes from "@/components/lista05/ChecarRes";
 import FiltrarPorUso from "@/components/lista05/FiltrarPorUso";
 import SoPresentes from "@/components/lista05/SoPresentes";
+import ContadorDePresentes from "@/components/lista05/ContadorDePresentes";
+import BuscarUmAluno from "@/components/lista05/BuscarUmAluno";
 
 
 export default function Lista05() {
@@ -129,9 +131,9 @@ export default function Lista05() {
                     <section className="bg-white rounded-2xl border border-purple-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">11</span>
-                            <span className="text-sm text-slate-400">QuantosVieram</span>
+                            <span className="text-sm text-slate-400">ContadorDePresentes</span>
                         </div>
-                        <QuantosVieram />
+                        <ContadorDePresentes />
                     </section>
                 </div>
 
@@ -139,9 +141,9 @@ export default function Lista05() {
                     <section className="bg-white rounded-2xl border border-purple-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">12</span>
-                            <span className="text-sm text-slate-400">QuantosVieram</span>
+                            <span className="text-sm text-slate-400">BuscarUmAluno</span>
                         </div>
-                        <QuantosVieram />
+                        <BuscarUmAluno />
                     </section>
                 </div>
 
