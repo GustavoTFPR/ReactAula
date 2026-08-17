@@ -5,6 +5,10 @@ import EstadoDeLoading from "@/components/lista05/EstadoDeLoading";
 import TiparResposta from "@/components/lista05/TiparResposta";
 import QuantosVieram from "@/components/lista05/QuantosVieram";
 import CardsDaTurma from "@/components/lista05/CardsDaTurma";
+import TratarErro from "@/components/lista05/TratarErro";
+import ChecarRes from "@/components/lista05/ChecarRes";
+import FiltrarPorUso from "@/components/lista05/FiltrarPorUso";
+import SoPresentes from "@/components/lista05/SoPresentes";
 
 
 export default function Lista05() {
@@ -85,9 +89,9 @@ export default function Lista05() {
                     <section className="bg-white rounded-2xl border border-purple-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">07</span>
-                            <span className="text-sm text-slate-400">QuantosVieram</span>
+                            <span className="text-sm text-slate-400">TratarErro</span>
                         </div>
-                        <QuantosVieram />
+                        <TratarErro />
                     </section>
                 </div>
 
@@ -95,9 +99,9 @@ export default function Lista05() {
                     <section className="bg-white rounded-2xl border border-purple-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">08</span>
-                            <span className="text-sm text-slate-400">QuantosVieram</span>
+                            <span className="text-sm text-slate-400">ChecarRes</span>
                         </div>
-                        <QuantosVieram />
+                        <ChecarRes />
                     </section>
                 </div>
 
@@ -105,9 +109,9 @@ export default function Lista05() {
                     <section className="bg-white rounded-2xl border border-purple-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">09</span>
-                            <span className="text-sm text-slate-400">QuantosVieram</span>
+                            <span className="text-sm text-slate-400">FiltrarPorUso</span>
                         </div>
-                        <QuantosVieram />
+                        <FiltrarPorUso />
                     </section>
                 </div>
 
@@ -115,9 +119,9 @@ export default function Lista05() {
                     <section className="bg-white rounded-2xl border border-purple-100 p-6">
                         <div className="flex items-center gap-2 mb-4">
                             <span className="text-xs font-bold bg-slate-800 text-white rounded-full w-6 h-6 flex items-center justify-center shrink-0">10</span>
-                            <span className="text-sm text-slate-400">QuantosVieram</span>
+                            <span className="text-sm text-slate-400">SoPresentes</span>
                         </div>
-                        <QuantosVieram />
+                        <SoPresentes />
                     </section>
                 </div>
 

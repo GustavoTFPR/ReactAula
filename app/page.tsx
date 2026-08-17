@@ -8,7 +8,7 @@ export default function Home() {
             <div className="grid gap-4 sm:grid-cols-2">
                 <Link
                     href="/lista01"
-                    className="bg-slate-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-slate-700 transition-colors"
+                    className="bg-slate-800 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-slate-600 transition-colors"
                 >
                     Lista 01
                     <span className="block text-sm font-normal text-slate-300 mt-1">JSX e Componentes</span>
@@ -40,6 +40,13 @@ export default function Home() {
                 >
                     Lista 05
                     <span className="block text-sm font-normal text-cyan-100 mt-1">Consumir a API</span>
+                </Link>
+                <Link
+                    href="/lista06"
+                    className="bg-purple-900 text-white rounded-2xl p-6 shadow-lg font-bold hover:bg-purple-600 transition-colors"
+                >
+                    Lista 06
+                    <span className="block text-sm font-normal text-cyan-100 mt-1">Callbacks</span>
                 </Link>
             </div>
         </main>
